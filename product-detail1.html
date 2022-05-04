@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta charset="utf-8">
+  <title>Product detail - Danny</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Font awesome -->
+  <script src="https://kit.fontawesome.com/5ab65340c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <a href="home.html"><img src="./images/danny.jpg" width="125px"></a>
+      </div>
+      <nav style="z-index: 1">
+        <ul id="menuItems">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+      <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+  </div>
+
+  <!--------------- Single Product Details ----------------->
+
+  <div class="small-container single-product">
+    <div class="row">
+
+        <div class="col-2 small-img-row">
+          <div class="small-img-col box">
+            <img src="images/gallery001.jpg" width="100%" alt="image1" class="smallImg">
+          </div>
+          <div class="small-img-col box">
+            <img src="images/gallery002.jpg" width="100%" alt="image2" class="smallImg">
+          </div>
+          <div class="small-img-col box">
+            <img src="images/gallery003.jpg" width="100%" alt="image3" class="smallImg">
+          </div>
+        </div>
+
+      <div class="col-2">
+        <p>Home / T-Shirt</p>
+        <h1>Short sleeves by POLO</h1>
+        <h4>$50.00</h4>
+        <select class="" name="">
+          <option>Select Size</option>
+          <option>XXL</option>
+          <option>XL</option>
+          <option>L</option>
+          <option>M</option>
+          <option>S</option>
+        </select>
+        <input type="number" name="" value="1">
+        <a href="#" class="btn">Add To Cart</a>
+        <h3>Product details <i class="fa-solid fa fa-indent"></i></h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Tortor posuere ac ut consequat semper viverra nam libero.
+          Aenean pharetra magna ac placerat. Nulla aliquet enim tortor at
+          auctor urna nunc id cursus. Varius duis at consectetur lorem donec massa.
+        </p>
+      </div>
+    </div>
+  </div>
+
+<!------------- Title --------------->
+
+<div class="small-container">
+  <div class="row">
+    <h2>Related Products</h2>
+    <p>View more</p>
+  </div>
+</div>
+
+
+<!-----------Products ------------>
+
+  <div class="small-container">
+
+    <div class="row">
+      <div class="col-4">
+        <a href="product-detail.html"><img src="images/product-9.jpg">
+        <h4>lorem Ipsum</h4>
+        <div class="rating">
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star-half-stroke"></i>
+        </div>
+        <p>$50.00</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="product-detail.html"><img src="images/product-10.jpg">
+        <h4>lorem Ipsum</h4>
+        <div class="rating">
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star-half-stroke"></i>
+          <i class="fa-regular fa fa-star"></i>
+        </div>
+        <p>$50.00</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="product-detail.html"><img src="images/product-11.jpg">
+        <h4>lorem Ipsum</h4>
+        <div class="rating">
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-regular fa fa-star"></i>
+        </div>
+        <p>$50.00</p>
+        </a>
+      </div>
+      <div class="col-4">
+        <a href="product-detail.html"><img src="images/product-12.jpg">
+        <h4>lorem Ipsum</h4>
+        <div class="rating">
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star"></i>
+          <i class="fa-solid fa fa-star-half-stroke"></i>
+        </div>
+        <p>$50.00</p>
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!---------------- Footer ---------------->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and IOS Mobile Phone.</p>
+          <div class="app-logo">
+            <a href="#"><img src="images/play-store.png"></a>
+            <a href="#"><img src="images/app-store.png" alt=""></a>
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/danny.jpg" width="250px">
+          <p>Our Purpose Is To Sustainably Make The Pleasure and Benefits of Sports Accessible to the Many.
+          <p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Coupons</a></li>
+            <li><a href="#">Blog Post</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Join Affiliate</a></li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2022 - DannyDiara</p>
+    </div>
+  </div>
+
+  <!-------------- js for toggle menu --------------->
+
+  <script>
+    var menuItems = document.getElementById("menuItems");
+    // menuItems.style.maxHeight == "0";
+
+    function menutoggle() {
+      if (menuItems.style.display === "block") {
+        menuItems.style.display = "none";
+      } else {
+        menuItems.style.display = "block";
+      }
+    }
+  </script>
+
+  <!----------- js for product gallery ---------->
+
+  <script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementByClassName("smallImg");
+
+    smallImg[0].onclick = function () {
+      productImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function () {
+      productImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function () {
+      productImg.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function () {
+      productImg.src = smallImg[3].src;
+    }
+
+  </script>
+
+</body>
+
+</html>
